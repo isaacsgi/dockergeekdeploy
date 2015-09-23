@@ -240,7 +240,7 @@
 	  "settings": {
           "compose": {
             "webapp": {
-              "image": "sbozovic/docker-geekquiz",
+              "image": "dcaro/dockerquizz",
               "restart": "always",
               "links": [
                 "db"
