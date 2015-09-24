@@ -7,5 +7,5 @@ RUN unzip /tmp/GeekQuiz.zip -d /tmp/www/ && \
  rm -r /var/www && \
  mv -v "$site_dir" /var/www && \
  rm -r /tmp/*
-ADD https://raw.githubusercontent.com/dcaro/dockerquizz/master/runit_bootstrap_ext /usr/sbin/runit_bootstrap_ext
-CMD ["/usr/sbin/runit_bootstrap_ext"]
+ADD runit_bootstrap_ext /usr/sbin/runit_bootstrap_ext
+CMD ["/usr/sbin/runit_bootstrap"]
