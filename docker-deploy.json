@@ -240,10 +240,10 @@
 	  "settings": {
           "compose": {
             "webapp": {
-              "image": "dcaro/dockerquizz",
+              "image": "sbozovic/docker-geekquiz",
               "restart": "always",
               "links": [
-                "db:mysql"
+                "db"
               ],
               "ports": [
                 "80:80"
