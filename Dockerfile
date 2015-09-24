@@ -8,4 +8,4 @@ RUN unzip /tmp/GeekQuiz.zip -d /tmp/www/ && \
  mv -v "$site_dir" /var/www && \
  rm -r /tmp/*
 ADD runit_bootstrap_ext /usr/sbin/runit_bootstrap_ext
-CMD ["/usr/sbin/runit_bootstrap"]
+CMD ["/usr/sbin/runit_bootstrap_ext"]
