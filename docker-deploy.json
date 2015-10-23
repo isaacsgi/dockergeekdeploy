@@ -240,7 +240,7 @@
 	  "settings": {
           "compose": {
             "webapp": {
-              "image": "isaacsgdock/dockergeekdeploy",
+              "image": "isaacsgi/dockergeekdeploy",
               "restart": "always",
               "links": [
                 "db"
