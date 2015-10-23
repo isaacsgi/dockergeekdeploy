@@ -240,7 +240,7 @@
 	  "settings": {
           "compose": {
             "webapp": {
-              "image": "dcaro/dockerquizz",
+              "image": "isaacsgdock/dockergeekdeploy",
               "restart": "always",
               "links": [
                 "db"
